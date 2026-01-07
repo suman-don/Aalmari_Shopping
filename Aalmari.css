@@ -61,22 +61,37 @@
   /* header End */
 
   /* slideSHow */
-  .slideshowBody{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 565px;
-  }
+.slideShowContainer {
+  display: flex;
+  justify-content: center;
+  height: 570px;
+  width: 100%;
 
-  .slideshow{
-    
-  }
+}
 
-  .slideshowBody .slideshow .frames img{
-    width: 1200px;
-    height: 100%;
-    border-radius: 40px;
-  }
+.slideShowContainer .frames {
+  height: 570px;
+  width: 1200px;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.slideShowContainer .frames .slide {
+  display: flex;
+  height: 100%;
+  width: 3600px; /* 1200px × 3 images */
+  /* transform: translateX(0px);  */
+}
+
+.slideShowContainer .frames .slide img {
+  height: 570px;
+  width: 1200px; /* each image full frame */
+  flex-shrink: 0;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+
 
   /* dots */
    .dots{
@@ -87,19 +102,21 @@
     justify-content: center;
     gap: 10px;
    }
-   .dot1{
-    border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    background: white;
-   }
-
-   .dot2,.dot3{
+   .dot{
     border-radius: 50%;
     height: 15px;
     width: 15px;
     background: gray;
    }
+    .dot.active{
+    border-radius: 50%;
+    transition: 0.6s;
+    height: 15px;
+    width: 15px;
+    background: white;
+   }
+
+   
 
    /* flashsales */
 
@@ -124,6 +141,7 @@
       row-gap: 50px;
       column-gap: 30px;
       justify-content: center;
+      margin-bottom: 40px;
     }
     .containerBig2{
       display: flex;
@@ -132,10 +150,11 @@
        row-gap: 50px;
       column-gap: 30px;
       justify-content: center;
+      margin-bottom: 40px;
      
     }
 
-    .container,.container1,.container2,.container3,.container4,.container5{
+    .container,.container1,.container2,.container3,.container4,.container5,.container6,.container7,.container8{
       height: 450px;
       width: 390px;
       border-radius: 50px;
@@ -186,3 +205,77 @@
   .container11_dis{
     text-decoration: line-through;
   }
+
+  /* catergory */
+    .containerC1,.containerC2,.containerC3,.containerC4,.containerC5,.containerC6{
+      height: 380px;
+      width: 390px;
+      border-radius: 50px;
+      background: black;
+      opacity: 10%;
+    }
+
+    .containerC11,.containerC22,.containerC33,.containerC44,.containerC55,.containerC66{
+       height: 380px;
+      width: 390px;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      
+    }
+  
+    .containerC11 img,.containerC22 img,.containerC33 img,.containerC44 img,.containerC55 img,.containerC66 img{
+      height: 250px;
+      width: 250px;
+      display: block;
+      margin: 0 auto;
+      margin-top: -40px;
+      margin-bottom: 50px;
+    }
+  .container121_text{
+    text-align: center;
+    font-family: "outfit";
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  /* footer */
+
+   .footer{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin-top: 60px;
+    background: #ED9782;
+    border-top: 2px solid rgba(128, 128, 128, 0.54);
+    padding-top: 35px;
+    justify-content: space-around;
+   }
+
+   .customerContainer{
+    font-family: "outfit";
+    
+   }
+   .customer,.aalmari{
+    font-size: 25px;
+    padding-bottom: 20px;
+   }
+ .customerTxt,.about{
+  padding-bottom: 15px;
+ }
+   .aalmariContainer{
+    font-family: "outfit";
+   }
+
+   .footerImg .footerRow img{
+     height: 50px;
+     width: 100px;
+   }
+   .footerImg img{
+    height: 40px;
+    width: 100px;
+   }
+
+
+   
