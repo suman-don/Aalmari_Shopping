@@ -162,6 +162,11 @@
       opacity: 10%;
     }
 
+    a{
+      text-decoration-line: none;
+      color: black;
+    }
+
     .container11,.container22,.container33,.container44,.container55,.container66{
        height: 450px;
       width: 390px;

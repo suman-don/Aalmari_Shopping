@@ -1,0 +1,121 @@
+ /* header */
+ body{
+  /* position: fixed; */
+    top: 0;
+    width: 100%;
+    font-family: "outfit";
+    margin: 0;
+    right: 0;
+    padding: 0;
+    background: linear-gradient(145deg,#F8EDD5, #E97D68);
+ }
+.header{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    height: 150px;
+    width: 150px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+    height:50px;
+    width: 1000px;
+    padding: 10px 30px;
+    border-radius: 40px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    font-family: "outfit";
+}
+.search_button{
+    height: 50px;
+    width: 90px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border: none;
+    margin-left: -90px;
+    background: #F8EDD5;
+    cursor: pointer;
+}
+  .search_button span{
+    color: grey;
+  }
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+  /* header End */
+
+  .categoriesBox{
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    /* gap: 80px; */
+    align-items: center;
+    margin-left: 140px;
+  }
+
+  .categoriesBox .health,.men,.shaving,.trimmer,.Vintage{
+    background: gray;
+    border: none;
+    font-family: "outfit";
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  .Vintage.active{
+    background: white;
+  }
+
+  .line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 3px;
+    background: white;
+
+  }
+  .circle{
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background: white;
+    border-radius: 50%;
+  }
+
+  /* bigContainer */
+ .mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+ }
+
+  .bigContainer{
+    display: flex;
+    height: 450px;
+    width: 1200px;
+    background: white;
+    border-radius: 40px;
+    padding: 40px;
+  }
+
+  .bigContainer img{
+    height: 400px;
+    width: 350px;
+  }
