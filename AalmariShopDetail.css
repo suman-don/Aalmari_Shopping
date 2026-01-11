@@ -119,3 +119,124 @@
     height: 400px;
     width: 350px;
   }
+ .detail{
+  padding-left: 30px;
+  padding-right: 30px;
+ }
+
+  .detail .detailtext{
+    font-size: 28px;
+    font-family: "Outfit";
+    font-weight: 500;
+  }
+ .detail .rates{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 95%;
+  margin-top: 40px;
+ }
+
+ .detail .likes{
+  display: flex;
+  gap: 20px;
+ }
+
+ .detail .price{
+  font-size: 28px;
+  font-family: "outfit";
+  font-weight: 500;
+  margin-top: 40px;
+  color: #F75507;
+ }
+
+ .detail .discounts{
+  margin-top: 10px;
+ }
+
+ .detail .discount{
+  text-decoration: line-through;
+  color: gray;
+ }
+
+ .detail .quantities{
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+ }
+
+  .detail .quantities .quatitytext{
+    color: gray;
+  }
+
+ .detail .quantities .plus{
+  display: flex;
+  gap: 12px;
+ }
+
+ .detail .quantities .plus button{
+  width: 35px;
+  font-size: large;
+  font-weight: bold;
+  background: #D9D9D9;
+  border-radius: 10px;
+  border: none;
+  color: white;
+ }
+
+ .detail .buttons{
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+ }
+
+ .detail .buttons button{
+  width: 50%;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  color: white;
+  background: #86FB6E;
+  border-radius: 40px;
+ }
+
+ #cartBTN{
+    width: 50%;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  color: white;
+  background: #FF7D7D;
+  border-radius: 40px;
+ }
+
+ /* detailend */
+
+ .SecondBigContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: red;
+ }
+
+  .SecondBigContainer .container2{
+    background: white;
+    width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    border-radius: 40px;
+  }
+
+  .SecondBigContainer .container2 p{
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+
+  .SecondBigContainer .container2 p{
+    font-size: 21px;
+    font-weight: 550;
+  }
