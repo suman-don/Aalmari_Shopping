@@ -219,12 +219,12 @@
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  background: red;
  }
 
   .SecondBigContainer .container2{
     background: white;
     width: 1200px;
+    padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
@@ -239,4 +239,12 @@
   .SecondBigContainer .container2 p{
     font-size: 21px;
     font-weight: 550;
+  }
+
+  .SecondBigContainer .container2 #second_text{
+    font-size: 18px;
+  }
+
+  .SecondBigContainer .container2  ul li{
+    font-size: 19px;
   }
