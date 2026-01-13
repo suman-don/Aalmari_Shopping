@@ -132,6 +132,15 @@
      font-size: 20px;
      font-weight: 550;
      color: #FF0000;
+     cursor: pointer;
+    }
+
+     .flash,.more a{
+     font-family: "outfit";
+     font-size: 20px;
+     font-weight: 550;
+     color: #FF0000;
+     cursor: pointer;
     }
 
     .containerBig{
